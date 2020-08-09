@@ -1,0 +1,43 @@
+body {
+    color: rgb(151, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: silver;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+
+}
+
+header h1 {
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 025)
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 15px 20px;
+    font-weight: lighter;
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+
+body {
+    margin: 0;
+}
