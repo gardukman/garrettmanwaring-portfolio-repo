@@ -16,7 +16,6 @@ header h1 {
     font-size: 36px;
     color: black;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 025)
 }
 
 header nav {
@@ -39,5 +38,6 @@ header nav ul a {
 }
 
 body {
+    background-image: url("../images/family-photo.jpg");
     margin: 0;
 }
