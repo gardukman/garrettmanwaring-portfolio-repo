@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-       
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Garrett Manwaring</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <meta charset="UTF-8" />
+        <title>Garrett Manwaring Portfolio</title>
+    
     </head>
-    <body> 
+    <body>
         <!-- navigation -->
-    <header>
-         <h1>Garrett Manwaring</h1>
-         <nav><!-- Unordered list element -->
-            <ul>
-                <!-- List item element -->
-                <li>
-                <!-- Anchor element -->
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h1>Garrett Manwaring</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<!-- hero/jumbotron -->
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-cta">
-
+        <div class="hero-intro">
+            <img src="./assets/images/header-img.jpg">
         </div>
     </section>
-<!--end hero-->
 
-<section id="about-me">
+    <section class="information">
+    <!-- "About Me Section -->
+    <section id="about-me" class="aboutme">
     <div class="flex-row">
-        <h2 class="section-title secondary-border">About Me</h2>
+        <h2 class="section-title primary-border">About Me</h2>
     </div>
-</section>
+        <div class="aboutme1">
+            
+            <p class="paragraph1">I'm a new Full-Stack Web Developer, eager to learn more and jump into the field. I am currently attending a coding and web development boot-camp offered through the University of Utah. I've held different managerial positions in different jobs that I've had over the years, so I've come to acquire leadership skills. After high school I spend 2 years serving a full-time mission for The Church of Jesus Christ of Latter-Day Saints on the beautiful island of Taiwan and speak Mandarin Chinese.  
+            </p>
+            
+            
+            <p class="paragraph2">During the UofU boot-camp course, I've learned HTML, CSS, JavaScript, API's, Express.js, SQL, NoSQL, React, and a few other languages and web development tools. When I'm not working or coding, I enjoy spending time with my wife and three children. 
+            </p>
+           
+        </div>
+    </section>
+    
+    <!-- Work Section -->
+    <section id="work" class="work">
+    <div class="flex-row">
+        <h2 class="section-title primary border">Work</h2>
+    </div>
+        <div class="service-grid-wrapper">
+            <div class="service-grid-container">
+                <div class="service-grid-item run-buddy">
+                    <h2>Ambitious Alcoholics</h2>
+                    <a href="https://gardukman.github.io/ambitious-alcoholics/">
+                    <img src="./assets/images/AA2.png">
+                    </a>
+                </div>
+                <div class="service-grid-item horiseon">
+                    <h2>Holiday Planner</h2>
+                    <a href="https://desolate-inlet-16467.herokuapp.com/">
+                    <img src="./assets/images/job-finder.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="contact">
+    <div class="flex-row">
+        <h2 class="section-title primary border">Contact Me</h2>
+    </div>
+        <div class="contact-info">
+            <ul>
+                <li>
+                    <a>garrettduke87@gmail.com</a>
+                </li>
+                <li>
+                    <a>435-315-5798</a>
+                </li>
+                <li>
+                    <a href="https://github.com/gardukman" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/garrett-manwaring1987/" target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </section>
+    </body>
+</html>
