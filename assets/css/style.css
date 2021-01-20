@@ -18,7 +18,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: white;
+    color: darkslategray;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -45,7 +45,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: white;
+    color: darkslategray;
 }
 
 .hero {
@@ -56,7 +56,7 @@ header nav ul li a {
 .hero-intro {
     margin: 0;
     padding: 10px 35px;
-    color: white;
+    color: lightgray;
     padding: 0;
 }
 
@@ -74,12 +74,12 @@ header nav ul li a {
     margin: 0 auto 35px auto;
     width: 50%;
     font-size: 48px;
-    color: #7C49AA;
+    color: rgb(50, 43, 97);
     border-bottom: 3px solid;
 }
 
 .information {
-    background: #EEE4F7;
+    background: #a3b7e4;
 }
 
 section {
